@@ -13,7 +13,9 @@ CPP_FORMATER = clang-format
 
 # Source code
 #SRCS = $(wildcard *.cpp)
-SRCS = 01_two_sum.cpp
+#SRCS = 01_two_sum.cpp
+#SRCS = 09_palindrome_number.cpp
+SRCS = 13_roman_to_integer.cpp
 
 # Generate object file list
 OBJS = $(SRCS:.cpp=.o)
