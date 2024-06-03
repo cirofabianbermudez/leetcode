@@ -53,7 +53,6 @@ run:
 	@echo "> Running $(TARGET)"
 	./$(TARGET)
 
-
 format: $(SRCS)
 	@if command -v $(CPP_FORMATER) > /dev/null 2>&1 ; then \
 		echo "> $(CPP_FORMATER) -i $^"; \
